@@ -14,7 +14,7 @@ Only one execution inside of a recursion.
 
 ## Exercise II
 
-Sounds like a binary sort. 
+Sounds like a binary search: O(log n)
 
 Let's say that the building is the Empire State in NYC (102 floors) because it's really the only modern skyscraper where you could feasibly **open a window**. Let's also say that, we don't know it, but the first floor that the egg will break is 17.
 
@@ -43,7 +43,7 @@ Get your clipboard.
 				return "{drop} is highest floor
 			drop = drop PLUS (half of difference between this try and last try)		// go halfway UP
 
-always round up.
+
 Go to half of height 51 > drop > splat. 
 Go down half of 51 = 26 > drop > splat.
 Go down half of 26 = 13 > drop > OkEgg is Ok.
